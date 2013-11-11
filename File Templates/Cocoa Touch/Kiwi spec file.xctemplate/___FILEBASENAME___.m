@@ -16,7 +16,7 @@
 
 SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
 
-describe(@"___FILEBASENAMEASIDENTIFIER___", ^
+describe(@"<#Class Under Test#>", ^
 {
     it(@"specs are not yet written", ^
     {
