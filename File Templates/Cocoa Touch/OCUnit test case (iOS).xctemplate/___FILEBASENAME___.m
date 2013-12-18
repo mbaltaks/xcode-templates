@@ -11,24 +11,34 @@
 // Collaborators
 
 // Test support
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #define HC_SHORTHAND
 #import <OCHamcrest/OCHamcrest.h>
 #define MOCKITO_SHORTHAND
 #import <OCMockito/OCMockito.h>
 
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : SenTestCase
+@interface ___FILEBASENAMEASIDENTIFIER___ : XCTestCase
 @end
 
+
 @implementation ___FILEBASENAMEASIDENTIFIER___
+
+- (void)setUp
 {
-    // test fixture ivars go here
+    [super setUp];
+    // Put setup code here; it will be run once, before the first test case.
+}
+
+- (void)tearDown
+{
+    // Put teardown code here; it will be run once, after the last test case.
+    [super tearDown];
 }
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in ___FILEBASENAMEASIDENTIFIER___");
+    XCTFail(@"No implementation for ___FILEBASENAMEASIDENTIFIER___ \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
