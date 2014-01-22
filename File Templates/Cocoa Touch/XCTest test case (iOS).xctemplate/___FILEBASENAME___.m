@@ -11,14 +11,14 @@
 // Collaborators
 
 // Test support
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #define HC_SHORTHAND
 #import <OCHamcrest/OCHamcrest.h>
 #define MOCKITO_SHORTHAND
 #import <OCMockito/OCMockito.h>
 
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : SenTestCase
+@interface ___FILEBASENAMEASIDENTIFIER___ : XCTestCase
 @end
 
 
@@ -38,7 +38,7 @@
 
 - (void)testExample
 {
-    STFail(@"No implementation for ___FILEBASENAMEASIDENTIFIER___ \"%s\"", __PRETTY_FUNCTION__);
+    XCTFail(@"No implementation for ___FILEBASENAMEASIDENTIFIER___ \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
