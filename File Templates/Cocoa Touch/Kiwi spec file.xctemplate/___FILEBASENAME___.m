@@ -18,9 +18,9 @@ SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
 
 describe(@"<#Class Under Test#>", ^
 {
-    it(@"specs are not yet written", ^
+    it(@"should have specs written", ^
     {
-        [[theValue(YES) should] equal:theValue(NO)];
+        [[@"specs" should] equal:@"written"];
     });
 });
 

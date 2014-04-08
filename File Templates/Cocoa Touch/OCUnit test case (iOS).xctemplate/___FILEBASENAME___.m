@@ -12,10 +12,11 @@
 
 // Test support
 #import <SenTestingKit/SenTestingKit.h>
-#define HC_SHORTHAND
-#import <OCHamcrest/OCHamcrest.h>
-#define MOCKITO_SHORTHAND
-#import <OCMockito/OCMockito.h>
+// Uncomment to enable support
+// #define HC_SHORTHAND
+// #import <OCHamcrest/OCHamcrest.h>
+// #define MOCKITO_SHORTHAND
+// #import <OCMockito/OCMockito.h>
 
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : SenTestCase
@@ -38,7 +39,7 @@
 
 - (void)testExample
 {
-    STFail(@"No implementation for ___FILEBASENAMEASIDENTIFIER___ \"%s\"", __PRETTY_FUNCTION__);
+    STFail(@"Should have implementation for ___FILEBASENAMEASIDENTIFIER___ \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end

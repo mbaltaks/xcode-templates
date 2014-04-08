@@ -12,10 +12,11 @@
 
 // Test support
 #import <XCTest/XCTest.h>
-#define HC_SHORTHAND
-#import <OCHamcrest/OCHamcrest.h>
-#define MOCKITO_SHORTHAND
-#import <OCMockito/OCMockito.h>
+// Uncomment to enable support
+// #define HC_SHORTHAND
+// #import <OCHamcrest/OCHamcrest.h>
+// #define MOCKITO_SHORTHAND
+// #import <OCMockito/OCMockito.h>
 
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : XCTestCase
@@ -38,7 +39,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for ___FILEBASENAMEASIDENTIFIER___ \"%s\"", __PRETTY_FUNCTION__);
+    XCTFail(@"Should have implementation for ___FILEBASENAMEASIDENTIFIER___ \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
