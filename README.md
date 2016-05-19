@@ -14,4 +14,4 @@ Happy testing!
 
 And for some hints on how to do testing well, try http://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/ and https://lizkeogh.com/2012/05/30/showcasing-the-language-of-bdd/.
 
-Thanks to @jonreid @ http://qualitycoding.org/
+Thanks to Jon Reid @ http://qualitycoding.org/
